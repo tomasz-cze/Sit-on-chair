@@ -1,0 +1,57 @@
+.copyright {
+  float: left;
+  height: 100px;
+  font-size: 1.15rem;
+  color: $colorSmallWheel;
+  padding-top: 10px;
+}
+
+.smallImg{
+  float: right;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-right: 50px;
+  >div:first-child {
+    background-image: url("../images/flickr.png");
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:nth-child(2){
+    background-image: url("../images/vimeo.png");
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:nth-child(3){
+    background-image: url("../images/pinterest.png");
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:last-child{
+    background-image: url("../images/twitter.png");
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.lastLogo {
+  color: gray;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: -70px;
+  width: 200px;
+  float: right;
+  padding-top: 10px;
+  span {
+    font-weight: 700;
+  }
+}

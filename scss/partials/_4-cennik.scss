@@ -1,0 +1,238 @@
+.priceSection {
+  display: flex;
+  flex-direction: column;
+  background-color: $colorGray1;
+  height: 600px;
+  width: 100%;
+}
+
+.boxCennik {
+  display: flex;
+  height: 20%;
+  .inscriptionCennik {
+    height: 70%;
+    width: 33%;
+    border-bottom: 10px solid #23d1ae;
+    padding-top: 4%;
+  }
+}
+.plansBoxes {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+
+
+.planBox1 {
+  //display: flex;
+  border: 1px solid $colorGray2;
+
+  height: 85%;
+  width: 315px;
+  background-color: white;
+  .priceBox1 {
+    height: 50% ;
+    width: 100% ;
+    .biggWheel1 {
+      border: 1px solid $colorSmallWheel;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      background-color: white;
+      position: relative;
+      top: -10%;
+      left: 45%;
+      span{
+        background-color: $colorSmallWheel;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 22%;
+        left: 23%;
+      }
+    }
+    .planName1 {
+      width: 100%;
+      text-align: center;
+      color: $colorGreen;
+      font-size: 20px;
+      margin-top: -5%;
+    }
+    .price1 {
+      border: 1px solid $colorSmallWheel;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 35%;
+      margin-top: 7%;
+      text-align: center;
+      span {
+        font-size: 30px;
+        color: $colorGray2;
+        font-weight: 700;
+        .indexUp {
+          vertical-align: super;
+          font-size: 15px;
+        }
+        div {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .productDescription1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+    >div {
+      width: 100%;
+      font-size: 18px;
+      background-color: $colorGray2;
+      color: $colorSmallWheel;
+      height: 25%;
+      text-align: center;
+     padding-top: 10px;
+    }
+    div:nth-child(even){
+      width: 100%;
+      font-size: 18px;
+      background-color: $colorGray3;
+      color: $colorSmallWheel;
+      height: 25%;
+      text-align: center;
+    }
+  }
+
+  .priceBoxButton1 {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    span {
+      height: 35px;
+      border-radius: 10%;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $colorGreen;
+      >div {
+        color: white;
+      }
+    }
+  }
+}
+
+
+.planBox2 {
+  //display: flex;
+  border: 1px solid $colorGreen;
+  height: 85%;
+  width: 315px;
+  .priceBox2 {
+    height: 50%;
+    width: 100%;
+    background-color: $colorGreen;
+    .biggWheel2{
+      border: 1px solid $colorGreen;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      background-color: $colorGreen;
+      position: relative;
+      top: -10%;
+      left: 45%;
+      span {
+        background-color: white;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 22%;
+        left: 23%;
+      }
+    }
+    .planName2 {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-top: -5%;
+
+    }
+    .price2{
+      border: 1px solid $colorSmallWheel;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 35%;
+      margin-top: 7%;
+      background-color: white;
+      text-align: center;
+      span {
+        font-size: 30px;
+        color: $colorGreen;
+        font-weight: 700;
+        .indexUp2 {
+          vertical-align: super;
+          font-size: 15px;
+        }
+        div {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .productDescription2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    >div {
+      width: 100%;
+      font-size: 18px;
+      color: $colorSmallWheel;
+      height: 25%;
+      text-align: center;
+      padding-top: 10px;
+    }
+    div:nth-child(-2n+2){
+      width: 100%;
+      font-size: 18px;
+      background-color: $colorGray2;
+      color: $colorSmallWheel;
+      height: 25%;
+      text-align: center;
+    }
+  }
+  .priceBoxButton2 {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorGreen;
+    span {
+      height: 35px;
+      border-radius: 10%;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      > div {
+        color: $colorGreen;
+      }
+    }
+  }
+}

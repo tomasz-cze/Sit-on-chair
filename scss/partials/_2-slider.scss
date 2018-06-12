@@ -1,0 +1,82 @@
+
+.slider {
+  background: linear-gradient(to top,  #cbcad2 0%, #fbfbfb 100%);
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+
+.sliderBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.sliderButtonLeft {
+  width: 3%;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 400px;
+  font-size: 50px;
+  color: $colorGreen;
+}
+
+.sliderUl {
+  width: 96%;
+  display: flex;
+  margin-top: 6%;
+  .blackChair {
+  width: 50%;
+  height: 100%;
+  float: left;
+    margin-left: -3%;
+}
+  .slideText {
+    width: 50%;
+    height: 100%;
+    padding-right: 5%;
+    float: left;
+    .firstSliderText{
+      height: 26%;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .secondSliderText{
+      color: dimgray;
+      height: 28%;
+      padding-top: 19px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+
+    }
+    .thirdSliderText {
+      font-size: 19px;
+      color: white;
+      height: 46%;
+      .clickMore {
+        background-color: #23d1ae;
+        border-radius: 9%;
+        height: 37px;
+        DISPLAY: flex;
+        justify-content: center;
+        margin-left: 27%;
+        margin-right: 27%;
+        margin-top: 3%;
+        padding-top: 2%;
+      }
+    }
+  }
+}
+
+.sliderButtonRight {
+  width: 3%;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 400px;
+  font-size: 50px;
+  color: $colorGreen;
+}
